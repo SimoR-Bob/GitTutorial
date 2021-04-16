@@ -20,7 +20,7 @@ ax = fig.gca(projection='3d')
 	
 # 1D arrays for x and y coordinates
 	
-n_points = 200
+n_points = 500
 	
 x_min,x_max = -5,5
 	
@@ -42,7 +42,7 @@ X, Y = np.meshgrid(X, Y)
 	
 R = np.sqrt(X**2 + Y**2)
 	
-Z = np.sin(R)
+Z = np.cos(R)
 	
  
 	
