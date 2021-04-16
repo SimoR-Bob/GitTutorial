@@ -22,9 +22,9 @@ ax = fig.gca(projection='3d')
 	
 n_points = 500
 	
-x_min,x_max = -5,5
+x_min,x_max = -10,10
 	
-y_min,y_max = -5,5
+y_min,y_max = -10,10
 	
 X = np.linspace(x_min,x_max, n_points)
 	
